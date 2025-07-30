@@ -16,3 +16,5 @@ test('login with valid crde', async ({page}) => {
     await page.locator('(//input[@type="checkbox"])[2]').check()
     await page.locator('[type="submit"]').click()
 })
+
+ git config --global user.email "you@example.com"
